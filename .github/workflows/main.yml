@@ -14,8 +14,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-      with:
-        ref: 'v2'  # Use version v2 to explicitly specify node16
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
