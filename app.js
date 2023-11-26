@@ -1,1 +1,1 @@
-console.log("Hello Docker build");
+console.log("Hello Docker");
