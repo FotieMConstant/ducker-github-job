@@ -1,0 +1,14 @@
+name: Node application
+
+on:
+  push:
+    branches:
+      - main # Change this to the branch you want to trigger the workflow on
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
